@@ -48,7 +48,7 @@ assets/temp/
 
 # Ignorar arquivos de configuração específicos do projeto
 settings.py
-config.py
+#config.py
 
 # Ignorar arquivos de dependências (se não estiver usando um gerenciador de pacotes)
 *.zip
