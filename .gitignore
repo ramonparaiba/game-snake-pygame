@@ -1,1 +1,55 @@
 \venv
+__pycache__/
+# Ignorar arquivos Python compilados
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignorar arquivos de ambiente virtual
+venv/
+env/
+.venv/
+.env/
+
+# Ignorar arquivos de configuração local
+*.local
+*.env
+.env.local
+
+# Ignorar arquivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignorar arquivos de build e distribuição
+build/
+dist/
+*.egg-info/
+*.egg
+*.whl
+
+# Ignorar arquivos de cache e logs
+*.log
+*.cache
+.pytest_cache/
+
+# Ignorar arquivos de sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de banco de dados (se houver)
+*.db
+*.sqlite3
+
+# Ignorar arquivos de mídia e assets temporários
+assets/temp/
+*.tmp
+
+# Ignorar arquivos de configuração específicos do projeto
+settings.py
+config.py
+
+# Ignorar arquivos de dependências (se não estiver usando um gerenciador de pacotes)
+*.zip
+*.tar.gz
